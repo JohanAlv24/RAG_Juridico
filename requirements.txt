@@ -1,0 +1,12 @@
+# Núcleo del RAG
+langchain-core
+langchain-nvidia-ai-endpoints
+qdrant-client>=1.10
+numpy
+pypdf
+python-dotenv
+
+# Opcionales
+markitdown[docx]   # solo para documentos .docx / .html / .rtf
+gradio             # interfaz gráfica (app.py)
+pytest             # pruebas

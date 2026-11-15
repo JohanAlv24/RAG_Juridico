@@ -1,0 +1,52 @@
+
+{
+  "_descripcion": "Corpus juridico colombiano para un proyecto academico de RAG sobre riesgos y responsabilidad contractual.",
+
+  "leyes/codigo_civil_colombia.pdf": {
+    "titulo": "Código Civil colombiano",
+    "origen": "https://www.oas.org/dil/esp/codigo_civil_colombia.pdf",
+    "temas": [
+      "Obligaciones",
+      "Contratos",
+      "Responsabilidad civil",
+      "Incumplimiento contractual"
+    ]
+  },
+
+  "leyes/codigo_comercio.pdf": {
+    "titulo": "Código de Comercio colombiano - Decreto 410 de 1971",
+    "origen": "https://www.supersociedades.gov.co/documents/107391/831466/Decreto%2B410%2Bdel%2B27%2Bde%2Bmarzo%2Bde%2B1971.pdf/16152a0c-ab79-5e92-7e13-36326dabfdd6",
+    "temas": [
+      "Contratos mercantiles",
+      "Obligaciones comerciales",
+      "Incumplimiento contractual"
+    ]
+  },
+
+  "sentencias/Sentencia_2022.pdf": {
+    "titulo": "Tribunal Superior de Medellín - Responsabilidad civil contractual",
+    "origen": "https://tribunalmedellin.com/images/decisiones/civil/2023/05001310301020200008501.pdf",
+    "radicado": "05001310301020200008501",
+    "fecha": "2024-09-24",
+    "corporacion": "Tribunal Superior de Medellín",
+    "temas": [
+      "Responsabilidad civil contractual",
+      "Interpretación de contratos",
+      "Contrato de mandato",
+      "Deberes profesionales del abogado"
+    ]
+  },
+
+  "casos/Responsabilidad_Civil_Contractual.pdf": {
+    "titulo": "Corte Suprema de Justicia - Sentencia SC3598-2020",
+    "origen": "https://vlex.com.co/vid/sentencia-sentencia-sustitutiva-corte-850070563",
+    "radicado": "73001-31-03-006-2011-00139-01",
+    "fecha": "2020-09-28",
+    "corporacion": "Corte Suprema de Justicia - Sala de Casación Civil",
+    "temas": [
+      "Simulación contractual",
+      "Contratos de compraventa",
+      "Efectos jurídicos de los contratos"
+    ]
+  }
+}
