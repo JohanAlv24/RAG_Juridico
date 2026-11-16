@@ -57,14 +57,10 @@ def evaluar(asistente: AsistenteJuridico, ruta_casos: Path = RUTA_CASOS,
                 f"(mejor similitud {respuesta.mejor_similitud:.2f}, {respuesta.segundos:.1f} s)",
             "", "**Respuesta obtenida:**", "", respuesta.respuesta,
             "", "**Fuentes recuperadas:**", "", fuentes_markdown(respuesta, con_texto=False),
-            "", "**Comprobaciones automáticas (ayuda, no reemplazan la revisión manual):**",
             f"- ¿Estado esperado? {estado_ok} (esperado: {', '.join(caso.get('estados_esperados') or ['—'])})",
             f"- Tipos de fuente esperados que faltaron: {', '.join(chequeo['tipos_faltantes']) or 'ninguno'}",
             f"- Términos esperados ausentes: {', '.join(chequeo['terminos_faltantes']) or 'ninguno'}",
-            f"- Advertencias de citas: {'; '.join(respuesta.advertencias) or 'ninguna'}",
-            "", "**Valoración manual del equipo:** _(¿es relevante?, ¿cada afirmación está respaldada "
-                "por el fragmento citado?, ¿coincide con el documento original?)_",
-            "", "---", "",
+            f"- Advertencias de citas: {'; '.join(respuesta.advertencias) or 'ninguna'}"
         ]
 
     dir_resultados.mkdir(parents=True, exist_ok=True)
